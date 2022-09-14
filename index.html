@@ -7,48 +7,40 @@
     , initial-scale=1.0">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./assets/cal.png" >
     <title>Document</title>
 </head>
-<body>
-    <div id="cal-body">
-        <table class = "calculator">
-            <tr>
-                <td colspan ="3">  <input class = "cal-input" type ="text" id ="result" disabled > </td>
-                <td> <input  value=" C " onclick="clearDisplay()" type="button" id = "btn"> </td>
-            </tr>
-
-            <tr>
-                <td> <input  value=" 7 " onclick="display('7')" type="button"> </td>
-                <td> <input  value=" 8 " onclick="display('8')" type="button"> </td>
-                <td> <input  value=" 9 " onclick="display('9')" type="button"> </td>
-                <td> <input  value=" = " onclick="output()" type="button" id = "btn"> </td>
-            </tr>
-
-            <tr>
-                <td> <input  value=" 4 " onclick="display('4')" type="button"> </td>
-                <td> <input  value=" 5 " onclick="display('5')" type="button"> </td>
-                <td> <input  value=" 6 " onclick="display('6')" type="button"> </td>
-                <td> <input  value=" X " onclick="display('X')" type="button"> </td>
-            </tr>
-
-            <tr>
-                <td> <input  value=" 1 " onclick="display('1')" type="button"> </td>
-                <td> <input  value=" 2 " onclick="display('2')" type="button"> </td>
-                <td> <input  value=" 3 " onclick="display('3')" type="button"> </td>
-                <td> <input  value=" + " onclick="display('+')" type="button"> </td>
-            </tr>
-
-            <tr>
-                <td> <input  value=" . " onclick="display('.')" type="button"> </td>
-                <td> <input  value=" 0 " onclick="display('0')" type="button"> </td>
-                <td> <input  value=" / " onclick="display('/')" type="button"> </td>
-                <td> <input  value=" - " onclick="display('-')" type="button"> </td>
-                
-            </tr>
-
-        </table>
+<body >
+   
+    <div class="calculator">
+        <div class = "display" id = display-el></div>
+        <div class="controls" id="btn">
+            <button  class="teal">C</button>
+            <button class="teal"></button>
+            <button class="teal">%</button>
+            <button  class="teal">+</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="teal">-</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="teal">X</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="teal">/</button>
+            <button>0</button>
+            <button  class="teal">.</button>
+            <button class="teal"></button>
+            <button class="teal">=</button>
+            
+        </div>
     </div>
+      
+   
 
-    <script>calculator.js</script>
+    <script  src = './calculator.js' ></script>
 </body>
 </html>
