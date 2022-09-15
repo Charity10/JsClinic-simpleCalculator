@@ -16,9 +16,19 @@
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7em;
-    height: 6em;
+    height: 3em;
     line-height: 8em;
     padding: 0 1.5em;
+}
+.history {
+    background: #222222;
+    color: #fff;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    height: 3em;
+    line-height: 0.001em;
+    padding: 0 1em;
 }
 
 .controls {
